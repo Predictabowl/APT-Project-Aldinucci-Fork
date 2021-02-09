@@ -12,5 +12,8 @@
 		<Root level="error">
 			<AppenderRef ref="Console-Appender" />
 		</Root>
+		<Logger name="org.hibernate" level="warn" additivity="false">
+            <AppenderRef ref="Console-Appender"/>
+        </Logger>
 	</Loggers>
 </Configuration>

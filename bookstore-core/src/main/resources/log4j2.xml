@@ -9,12 +9,11 @@
 	</Appenders>
 	
 	<Loggers>
-		<Root level="error">
+		<Root level="warn">
 			<AppenderRef ref="Console-Appender" />
 		</Root>
         <Logger name="org.hibernate" level="warn" additivity="false">
             <AppenderRef ref="Console-Appender"/>
         </Logger>
-        
 	</Loggers>
 </Configuration>
